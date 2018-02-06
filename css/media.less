@@ -1,0 +1,1169 @@
+/*
+Theme Name: Logos IT Academy
+Author: Galaiko Nazar
+License URI: http://www.galaikonazar.com.ua/
+*/
+@w: #fff;
+@b: #000;
+@g: #6cad24;
+@blue: #1D8BD1;
+@gr:#60656b;
+@ro_l: 'Roboto_light';
+@ro_th: 'Roboto_Thin';
+@myr: 'MyriadPro_Regular';
+@myr_b: 'MyriadPro_Bold';
+@border: 1px solid #899099;
+@text_color: #60656b;
+
+@media (max-width: 1286px) {
+	section {
+		&.complex_courses, &.our_teachers, &.corporate_clients, &.news, &.reviews, &.similar_courses {
+			.owl-carousel  {
+				&.owl-theme {
+					.owl-nav {
+						.owl-prev {
+							left:-30px;
+							background: url(http://lgs.lviv.ua/wp-content/uploads/2016/05/chiv-left.png) no-repeat center center;
+							background-size: 100% 65%;
+						}
+						.owl-next {
+							right:-30px;
+							background: url(http://lgs.lviv.ua/wp-content/uploads/2016/05/chiv-right.png) no-repeat center center;
+							background-size: 100% 65%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1266px) {
+	section {
+		&.complex_courses, &.our_teachers, &.corporate_clients, &.news, &.reviews, &.similar_courses {
+			.owl-carousel  {
+				&.owl-theme {
+					.owl-nav {
+						.owl-prev {
+							left:-15px;
+							background: url(http://lgs.lviv.ua/wp-content/uploads/2016/05/chiv-left.png) no-repeat center center;
+							background-size: 100% 65%;
+						}
+						.owl-next {
+							right:-15px;
+							background: url(http://lgs.lviv.ua/wp-content/uploads/2016/05/chiv-right.png) no-repeat center center;
+							background-size: 100% 65%;
+						}
+					}
+				}
+			}
+		}
+		&.our_teachers  {
+			.teacher_block {
+				width: 350px;
+			}
+		}
+	}
+}
+@media (max-width: 1247px) {
+}
+@media (max-width: 1200px) {
+	section {
+		&.banner {
+			.top_menu  {
+				padding: 30px 20px;
+				display: block;
+				img {
+					height: 51px;
+					margin: auto;
+					display: block;
+				}
+				nav  {
+					align-items: center;
+					padding: 0 7px;
+					ul  {
+						li  {
+							a {
+								padding: 2px 7px;
+								font-size: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.program_content  {
+		.program_info {
+			max-width: 530px;
+		}
+	}
+}
+@media (max-width: 1110px) {
+	.program_content  {
+		.program_info {
+			max-width: 500px;
+		}
+	}
+}
+@media (max-width: 1055px) {
+	.program_content  {
+		.program_info {
+			max-width: 480px;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	section {
+		&.questions_and_answers  {
+			padding: 45px 55px;
+			.wrap_numb_list {
+				display: block;
+				ol  {
+					li{
+						&.active {
+							&+span {
+								&.answer {
+									margin-left: 20px;
+								}
+							}
+						}
+					}
+				}
+				.left , .right {
+					width: 100%;
+				}
+				.right {
+					padding-left: 3px;
+				}
+			}
+		}
+	}
+	.program_content  {
+		.program_info {
+			max-width: 465px;
+		}
+	}
+	body{
+		// &.single_page{
+			section{
+				&.directions_of_training{
+					.wrap_directions{
+						.cours_block{
+							width: 32%;
+							margin-right: 2%;
+							&:nth-child(4n+4){
+								margin-right: 2%;
+							}
+							&:nth-child(3n+3){
+								margin-right: 0;
+							}
+						}
+					}
+				}
+			// }
+		}
+	}
+	body{
+		&.single_page{
+			section{
+				&.our_teachers.white_fon,
+				&.wrap_gallery,
+				&.news{
+					.wrap_directions,
+					ul.gallery_events.active,
+					ul.active{
+						li,
+						.news_block,
+						.teacher_block  {
+							width: 48%;
+
+							&:nth-child(3n+3) {
+								margin-right: 2%;
+							}
+							&:nth-child(even){
+								margin-right: 0;
+								margin-left: 1%;
+							}
+							&:nth-child(odd){
+								margin-left: 0%;
+								margin-right: 1%;
+							}
+
+						}	
+					}
+
+				}
+				
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	.program_content  {
+		.program_info {
+			max-width: 100%;
+			margin: 15px auto;
+			display: block;
+			border:0;
+			padding: 15px 10px;
+			.program_numbers {
+				position: static;
+				border-radius: 0;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.social_fixed {
+		display: none;
+	}
+	.breadcrumb {
+		justify-content: center;
+		padding: 0 20px;
+		padding-top: 10px;
+	}
+	.fixed_menu {
+		display: none;
+	}
+
+	section {
+		&.wrap_gallery  {
+			.back_to_gallery {
+				text-align: center;
+				margin: 35px 20px 20px 20px;
+			}
+		}
+		&.contact_page {
+			.block_title {
+				margin-bottom: 0px;
+			}
+			.info, .map {
+				span {
+					&.line {
+						font-size: 17px;
+						line-height: 23px;
+					}
+				}
+			}
+		}
+	}
+	body {
+		&.single_page  {
+			section {
+				&.schedule  {
+					.select-title  {
+						justify-content: center;
+						padding: 0 15px;
+						#type {
+							width: 100%;
+							max-width: 320px;
+						}
+					}
+				}
+				&.reviews_page  {
+					.wrap_tab  {
+						.tab_content  {
+							div {
+								&.tab  {
+									a {
+										width: 100%;
+										float: none;
+										&:nth-child(odd), &:nth-child(even) {
+											margin: 15px auto;
+										}
+										iframe, img {
+											max-width: 100%;
+											float: none;
+											display: block;
+											margin: 15px auto;
+											background: #000;
+											// &:nth-child(even) {
+											// 	margin-left: 0;
+											// }
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 825px) {
+	footer  {
+		ul {
+			&.footer_list {
+				display: block;
+				li {
+					margin: 20px auto;
+					&:last-child {
+						margin-bottom: 0;
+						padding-bottom: 20px;
+					}
+					form {
+						display: block;
+						input, button {
+							max-width: 100%;
+							width: 100%;
+						}
+						button {
+							margin: 10px auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	header{
+		display: none;
+	}
+	.block_title  {
+		h2 {
+			font-size: 20px;
+			line-height: 25px;
+		}
+	}
+	.course_details  {
+		li  {
+			max-width: 100%;
+			margin: 20px 15px;
+		}
+	}
+	.telphone{
+		width: 100%;
+		text-align: center;
+	}
+	section {
+		&.wrap_gallery {
+			ul  {
+				&.active {
+					li  {
+						width: 50%;
+						max-width: 100%;
+						min-height: 100%;
+						img {
+							width: 100%;
+							height: 260px;
+						}
+					}
+				}
+			}
+		}
+	}
+	section {
+		.owl-carousel {
+			&.owl-theme {
+				.owl-nav {
+					display: none;
+				}
+				.owl-dots {
+					span {
+						width: 15px;
+						height: 15px;
+					}
+				}
+			}
+		}
+
+		.block_title  {
+			h2 {
+				font-size: 20px;
+				white-space: inherit;
+				text-align: center;
+				display: block;
+				width: 100%;
+				line-height: 25px;
+				&:before, &:after {
+					display: none;
+				}
+			}
+		}
+		&.banner {
+			.back_fon {
+				// left: -360px;
+				top:-45px !important;
+			}
+			.banner_content  {
+				h2 {
+					transform: translate(0,-400px);
+					font-size: 45px;
+				}
+				h4 {
+					transform: translate(0,-390px);
+					font-size: 29px;
+					margin-top: -18px;
+					margin-bottom: 64px;
+				}
+				ul {
+					display: block;
+					transform: translate(0,-505px);
+					li {
+						&.green_btn {
+							transform: translate(0,-300px);
+							max-width: 100%;
+							a {
+								margin: 15px auto;
+								width: 100%;
+								max-width: 100%;
+							}
+						}
+						a {
+							margin: 15px auto;
+							width: 100%;
+							max-width: 100%;
+						}
+					}
+				}
+			}
+			.top_menu  {
+				img {
+					margin: 0;
+					max-width: 100%;
+				}
+				.wrap_forlogo {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					.mobil_button {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+					}
+				}
+				nav  {
+					align-items: flex-start;
+					ul  {
+						display: block;
+						width: 100%;
+						border-bottom: 0;
+						height: 0px;
+						transition:.4s;
+						overflow: hidden;
+						&.opened{
+							height: 410px;
+						}
+						li  {
+							border-bottom:1px solid #ebebeb;
+							margin: 5px 0;
+							&:first-child{
+								a {
+									padding: 7px 7px;
+								}
+							}
+							&:last-child{
+								border-bottom: 0;
+
+							}
+							a {
+								padding: 2px 7px;
+								font-size: 18px;
+								display: block;
+								padding: 7px 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.questions_and_answers  {
+			padding: 45px 15px;
+			.wrap_numb_list  {
+				ol  {
+					li {
+						padding-right: 55px;
+						line-height: 19px;
+						margin: 30px auto;
+						font-size: 16px;
+						&:nth-child(odd) {
+							&:before {
+								display: none;
+							}
+						}
+						&.active {
+							&+li {
+								&.answer {
+									padding: 9px 22px;
+									margin-left: 0;
+									padding-right: 0;
+								}
+							}
+						}
+						
+					}
+				}
+			}
+		}
+		&.complex_courses  {
+			.owl-carousel {
+				&.owl-theme {
+					padding-top: 0px;
+					.owl-nav {
+						display: none;
+					}
+				}
+			}
+			.courses_block {
+				max-width: 100%;
+				// padding: 0 45px;
+			}
+		}
+		&.our_teachers  {
+			.owl-carousel {
+				&.owl-theme {
+					.owl-nav {
+						display: none;
+					}
+					.owl-dots {
+						padding-top: 25px;
+					}
+				}
+			}
+			.teacher_block {
+				width: 100%;
+				margin-bottom: 15px;
+				max-width: 400px;
+			}
+		}
+		&.corporate_clients  {
+			.owl-carousel {
+				&.owl-theme {
+					.owl-nav {
+						// display: none;
+					}
+					.owl-dots {
+						padding-top: 25px;
+					}
+				}
+			}
+		}
+		&.reviews  {
+			.owl-carousel {
+				&.owl-theme {
+					padding-top: 0px;
+					.owl-nav {
+						display: none;
+					}
+					.owl-dots {
+						padding-top: 45px;
+					}
+				}
+			}
+		}
+		&.news  {
+			.owl-carousel {
+				&.owl-theme {
+					.owl-nav {
+						display: none;
+					}
+					.owl-dots {
+						padding-top: 45px;
+					}
+				}
+			}
+		}
+		&.corporate_clients  {
+			.owl-carousel {
+				&.owl-theme {
+					.owl-nav {
+						display: none;
+					}
+					.owl-dots {
+						padding-top: 25px;
+					}
+				}
+			}
+		} 
+		&.why_choose_us  {
+			ul {
+				display: block;
+				li {
+					display: block;
+					text-align: center;
+					&:last-child {
+						margin: auto;
+					}
+					img {
+						margin: auto;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	.breadcrumb {
+		display: block;
+		text-align: center;
+		a {
+			display: block;
+		}
+		i {
+			transform: rotate(90deg);
+		}
+	}
+	body {
+		&.single_page {
+			section  {
+				.block_title  {
+					display: block;
+					h2 {
+						display: block;
+						text-align: center;
+						font-size: 20px;
+						line-height: 25px;
+					}
+				}
+
+				&.our_teachers {
+					&.white_fon {
+						padding: 35px 0px;
+					}
+				}
+				&.our_vacancies  {
+					&.white_fon {
+						padding: 35px 15px;
+					}
+					.single_vacancy  {
+						span {
+							&.vacancy_name, &.vacancy_requirements {
+								font-size: 20px;
+								line-height: 21px;
+							}
+							&.vacancy_description {
+								font-size: 19px;
+								line-height: 25px;
+							}
+						}
+
+						.vacancy_expectation_list, .vacancy_requirements_list {
+							font-size: 19px;
+							li {
+								line-height: 25px;
+							}
+						}
+
+					}
+				}
+				&.news, &.schedule, &.prices{
+					padding:  35px 15px;
+				}
+				&.new {
+					.wrap_directions  {
+						.social_links {
+							ul {
+								display: block;
+								width: 100%;
+								max-width: 300px;
+								margin: auto;
+								margin-top: 25px;
+							}
+						}
+					}
+				}
+			}
+
+
+			.prices, .schedule{
+				.wrap_directions {
+					table.courses_schedule, table.course_price {
+						thead{
+							display: none;
+						}
+						tr { 
+							display: flex; 
+							flex-direction: row;
+							flex-wrap: wrap;
+						}
+						td {
+							flex: 1 1 500px;
+							&:first-child{
+								background: #1D8BD1;
+								color: #fff;
+								.link-lang{
+									text-align: center;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	body{
+		// &.single_page{
+			section{
+				&.directions_of_training{
+					.wrap_directions{
+						.cours_block{
+							width: 48%;
+							margin: 0 0 2% 0;
+							&:nth-child(4n+4){
+								margin-right: 0%;
+							}
+							&:nth-child(odd){
+								margin-right: 2%;
+							}
+							&:nth-child(even){
+								margin-left: 2%;
+							}
+							
+						}
+					}
+				}
+			// }
+		}
+	}
+	body{
+		&.single_page{
+			section{
+				&.our_teachers.white_fon{
+					.wrap_directions{
+						.teacher_block{
+							max-width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+// @media (max-width: 666px) {
+// 	section {
+// 		&.directions_of_training  {
+// 			.wrap_directions {
+// 				justify-content: center;
+// 				a {
+// 					padding: 25px 0;
+// 					width: 100%;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+@media (max-width: 520px) {
+	body{
+		// section.directions_of_training{
+		// 	.wrap_directions{
+		// 		.cours_block{
+		// 			width: 100%;
+		// 			a{
+		// 				width: 100%;
+		// 			}
+		// 		}
+		// 	}
+
+		// }
+		&.single_page{
+			section{
+				&.our_teachers.white_fon,
+				&.wrap_gallery,
+				&.news{
+					.wrap_directions {
+						padding-left: 15px;
+						padding-right: 15px;
+					}
+					.wrap_directions,
+					ul.gallery_events.active,
+					ul.active{
+						.news_block,
+						.teacher_block, li{
+							width: 100%;
+							&:nth-child(even),
+							&:nth-child(odd),
+							li {
+								margin: 0;
+							}
+							
+						}	
+					}
+
+				}
+			}
+		}
+	}
+	section {
+		&.banner  {
+			.top_menu {
+				padding: 30px 10px;
+				img {
+					max-width: 155px;
+					height: auto;
+				}
+			}
+			.banner_content  {
+				padding: 45px 10px;
+				h2 {
+					font-size: 44px;
+					line-height: 45px;
+				}
+				h4 {
+					font-size: 25px;
+					margin-top: -10px;
+					margin-bottom: 64px;
+					line-height: 33px;
+				}
+			}
+		}
+		&.complex_courses,&.about_us, &.corporate_clients, &.directions_of_training, &.promo_video  {
+			padding:35px 15px;
+		}
+		&.promo_video {
+			h3 {
+				font-size: 21px;
+			}
+		}
+		&.group_photo  {
+			img {
+				width: 260px;
+			}
+		}
+		&.reviews  {
+			padding: 35px 15px;
+			.reviews_block  {
+				width: 100%;
+				// padding: 0 20px;
+				img {
+					max-width: 180px;
+				}
+				h3 {
+					font-size: 19px;
+				}
+				span{
+					&.courses {
+						font-size: 18px;
+					}
+					&.text {
+						line-height: 26px;
+						font-size: 17px;
+					}
+				}
+			}
+		}
+		&.our_teachers  {
+			padding: 35px 15px;
+			.teacher_block  {
+				.info  {
+					h4 {
+						font-size: 18px;
+					}
+					span {
+						&.teacher_skills {
+							font-size: 15px;
+						}
+						&.teaches_courses {
+							font-size: 16px;
+						}
+					}
+				}
+				a {
+					&.about {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+		&.news  {
+			padding: 35px 15px;
+			.news_block {
+				width: 100%;
+				// padding: 0 25px;
+				div {
+					ul {
+						display: block;
+						text-align: center;
+						li {
+							&:first-child {
+								max-width: 85px;
+								min-width: 85px;
+								margin: auto;
+								margin-bottom: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.about_us  {
+			.block_text   {
+				span {
+					line-height: 25px;
+					font-size: 17px;
+				}
+			}
+			.numbers_line {
+				li {
+					width: 100%;
+					h2 {
+						font-size: 40px;
+					}
+					img {
+						margin: auto;
+						margin-bottom: 15px;
+					}
+				}
+			}
+		}
+		&.contact_page {
+			
+			.info, .map {
+				span {
+					&.line {
+						font-size: 17px;
+						line-height: 23px;
+						text-align: center;
+						margin: 25px 10px;
+						&.tel {
+							display: block;
+							span {
+								&:first-child {
+									display: block;
+									text-align: center;
+								}
+							}
+							img {
+								margin: auto;
+								margin-bottom: 8px;
+							}
+						}
+						img {
+							display: block;
+							margin: auto;
+							margin-bottom: 8px;
+						}
+					}
+				}
+			}
+		}
+		&.reviews_page {
+			padding: 35px 15px;
+			.wrap_tab {
+				.tab_head {
+					display: block;
+					li {
+						text-align: center;
+						&:nth-child(even) {
+							border: 0;
+						}
+					}
+				}
+				.tab_content  {
+					div {
+						&.tab {
+							iframe {
+								margin: 14px auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	body {
+		&.single_page  {
+			section {
+				&.directions_of_training, &.news, &.schedule, &.our_teachers, &.our_vacancies {
+					padding: 35px 15px;
+				}
+				&.new  {
+					padding: 35px 15px;
+					.wrap_directions  {
+						h1 {
+							font-size: 21px;
+							line-height: 22px;
+						}
+						p,span {
+							line-height: 21px;
+							font-size: 17px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.numbers_line  {
+		li  {
+			h2 {
+				font-size: 35px;
+			}
+		}
+	}
+
+	.course_details  {
+		li  {
+			span,p {
+				font-size: 17px;
+				line-height: 22px;
+			}
+		}
+	}
+
+	.modal_box {
+		&.foto {
+			padding: 15px;
+			.full_foto {
+				padding: 20px;
+				position: static;
+				.foto_nav {
+					padding: 30px;
+					opacity: 1;
+				}
+			}
+		}
+	}
+	body{
+		// &.single_page{
+			section{
+				&.directions_of_training{
+					.wrap_directions{
+						.cours_block{
+							width: 100%;
+							&:nth-child(odd){
+								margin-right: 0%;
+							}
+							&:nth-child(even){
+								margin-left: 0%;
+							}
+						}
+					}
+				}
+			}
+		// }
+	}
+}
+
+@media (max-width: 444px) {
+	body {
+		overflow-x: hidden;
+		&.single_page  {
+			section {
+				&.our_teachers, &.our_vacancies   {
+					padding: 35px 0px;
+					.owl-item {
+						display: flex;
+					}
+					.teacher_block {
+						margin: 15px 15px;
+					}
+				}
+				&.reviews_page  {
+					.wrap_tab  {
+						.tab_content  {
+							div {
+								&.tab  {
+									a {
+										width: 100%;
+										float: none;
+										height: 270px;
+										&:nth-child(odd), &:nth-child(even) {
+											margin: 15px auto;
+										}
+										iframe, img {
+											max-width: 100%;
+											float: none;
+											display: block;
+											margin: 15px auto;
+											background: #000;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	section {
+		&.our_suggestions  {
+			ul {
+				&.list  {
+					li {
+						width: 100%;
+					}
+				}
+			}
+		}
+		&.wrap_gallery {
+			ul  {
+				&.active {
+					li  {
+						width: 100%;
+						max-width: 100%;
+						min-height: 100%;
+						img {
+							width: 100%;
+							height: 260px;
+						}
+					}
+				}
+			}
+		}
+		&.detailed_page {
+			.block_title {
+				margin-bottom: 0px;
+			}
+		}
+		&.similar_courses {
+			padding: 45px 15px;
+			.owl-carousel {
+				&.owl-theme   {
+					.owl-nav {
+						display: none;
+					}
+				}
+			}
+		}
+		&.our_teachers, &.our_vacancies, &.news   {
+			padding: 35px 0px;
+			.owl-item {
+				display: flex;
+			}
+			.teacher_block, .news_block {
+				margin: 15px 15px;
+			}
+		}
+	}
+
+
+	footer  {
+		ul {
+			&.footer_list  {
+				li  {
+					span,p {
+						font-size: 16px;
+						line-height: 21px;
+					}
+				}
+			}
+		}
+	}
+
+	.online_registration {
+		padding: 35px 5px;
+	}
+	.program_content  {
+		.program_info {
+			h3 {
+				line-height: 19px;
+				font-size: 17px;
+			}
+			ul {
+				li {
+					margin: 15px 0;
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}

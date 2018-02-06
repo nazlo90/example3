@@ -1,0 +1,75 @@
+$('.slider_one').owlCarousel({
+		loop:true,
+		margin:1,
+		nav:true,
+		dots:false,
+		responsive:{
+			0:{
+				items:1,
+				autoplay:true,
+				dots:true,
+				autoplayHoverPause:true
+
+			},
+			768:{
+				items:2
+			},
+			992:{
+				items:3
+			},
+			1200:{
+				items:4
+			}
+		}
+	});
+
+	$('.slider_twoo').owlCarousel({
+		loop:true,
+		margin:1,
+		nav:true,
+		dots:false,
+		responsive:{
+			0:{
+				items:1,
+				autoplay:true,
+				autoplayHoverPause:true,
+				dots:true
+			},
+			850:{
+				items:2
+			},
+			1190:{
+				items:3
+			}
+		}
+	});
+
+	$('.slider_three').owlCarousel({
+		loop:true,
+		margin:1,
+		nav:true,
+		autoplay: true,
+		
+		responsive:{
+			0:{
+				items:1,
+				dots:true,
+				autoplayHoverPause:true
+			},
+			530:{
+				items:2,
+			},
+			768:{
+				items:3,
+				dots:false
+			},
+			992:{
+				items:4,
+				dots:false
+			},
+			1160:{
+				items:5,
+				dots:false
+			}
+		}
+	});
